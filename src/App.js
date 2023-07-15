@@ -9,11 +9,16 @@ import SignIn from "./SignIn";
 import DetailsForm from "./DetailsForm";
 import WithChangeCounter from "./HOC/WithChangeCounter";
 import Todo from "./Todo/Todo";
+import Calculator from "./Calculator/Calculator";
+import { ButtonContext } from "./Calculator/Buttons/Button";
+
 
 function App() {
     return (
-        <div>
-            <Todo />
+        <div className="App">
+            <Calculator />
+
+            {/* <Todo /> */}
         </div>
         // <div className="App">
         //     {/* <Greet name="Shashi" /> */}
